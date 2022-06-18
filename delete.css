@@ -1,0 +1,73 @@
+.popup{
+    width:300px;
+    height: 200px;
+    background: whitesmoke;
+    border-radius: 6px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.confirm{
+margin-top: 0px;
+float:left;
+border:1px solid black;
+border-radius: 6px;
+width:99%;
+height:40px;
+}
+
+.confirm button{
+    float:right;
+    text-align: center;
+    width:40px;
+    margin-top: -55px;
+    margin-right: 2px;
+    border:1px solid black;
+    padding:2px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.user-con{
+    border:1px solid black;
+    border-radius: 10px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.user-con img{
+    height: 30px;
+    width: 30px;
+    margin:-10px 4px -48px -150px;
+}
+
+.ok-btn{
+    height:30px;
+    width:70px;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color:black;
+    
+}
+
+.ok-btn:hover{
+    border: 2px solid blue;
+}
+
+.cancel-btn{
+    height:30px;
+    width:70px;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color:black;
+}
+
+.cancel-btn:hover{
+    border: 2px solid blue;
+}
